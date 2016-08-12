@@ -1,0 +1,1 @@
+-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I.\CMSIS -I.\USER -I.\FWlib\inc -I.\FWlib\src -I..\流水灯+数码管 -I "e:\Keil\ARM\INC" -I "e:\Keil\ARM\INC\ST\STM32F10x" -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD -o "misc.o" --omf_browse "misc.crf" --depend "misc.d" "FWlib\src\misc.c"
